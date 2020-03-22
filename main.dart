@@ -42,13 +42,6 @@ class MyApp extends StatelessWidget {
       ),
     );
 
-/*    Widget imageSection = Image.asset(
-      'lib/images/1.jpg',
-      width: 600 ,
-      height: 240,
-      fit: BoxFit.cover,
-    );
-*/
     Color color = Theme.of(context).primaryColor;
 
     Widget buttonSection = Container(
@@ -133,7 +126,6 @@ class MyApp extends StatelessWidget {
                       ),
                     ],
                     onDetailsPressed: () {},
-                  
               ),
               Expanded(
                 child: ListView(
